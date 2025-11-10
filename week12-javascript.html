@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript part 2</title>
+
+        <script>
+            function bigly() {
+                document.getElementById.innerHTML("p1").innerHTML = "New Content";
+            }
+
+            function wronganswer () {
+                document.getElementById("wrong").innerHTML = "<span style= 'color:red;'>True is the wrong answer!</span>"
+            }
+
+            function changeimage() {
+                document.getElementById("teamsimage").setAttribute ("src", "images/logo-sized.png");
+            }
+
+            function changestyle() {
+                document.getElementById("p2").style.color = "#0000FF";
+            }
+        </script>
+    </head>
+
+    <body>
+        <p id="p1" onclick="bigly();">content goes here</p>
+        <p id="p2" onmouseover="changestyle();">Paragraph 2</p>
+
+        <h1>Javascript Quiz</h1>
+        <p>Java and Javascript are the same thing</p>
+        <p onclick="wronganswer();" id="wrong">True</p>
+        <p onclick="rightanswer();" id="correct">Correct</p>
+
+        <img src="images/skillimage.png" id="teamsimage" onclick="changeimage();">
+
+
+    </body>
+
+
+</html>
