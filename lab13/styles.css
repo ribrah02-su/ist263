@@ -79,7 +79,7 @@ nav a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #80808087;
+  background-color: #ffff;
   padding: 20px;
   border-radius: 10px;
 }
