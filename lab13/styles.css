@@ -1,47 +1,43 @@
 body {
   background-color: #ffdef2;
   font-family: Arial, Helvetica, sans-serif;
+  color: #000000; 
 }
 
 h1, h2 {
-  color: #3B1F0D; 
+  color: #3B1F0D;
   background-color: #ffdef2;
 }
 
-h1 {font-size: 2.5em;}
-h2 {font-size: 2em;}
+h1 { font-size: 2.5em; }
+h2 { font-size: 2em; }
 
-p {font-size:1em;}
+p { font-size: 1em; }
 
 .evenrow {
   color: #4A3750;
 }
-
-
-body {
-  color:#000000;
-}
-
 
 a {
   color: #2B0A0E;
 }
 
 nav {
-  background-color: #000000;
+  background-color: #2B0A0E; 
+  padding: 10px;
+  margin-bottom: 30px;
 }
 
 nav a {
-  color: #ffdef2;
+  color: #FFEDF7; 
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
 }
 
 nav a:hover {
-  background-color: #361800;
-}
-
-nav {
-  padding: 10px;
-  margin-bottom: 30px;
+  background-color: #3F1D12; 
 }
 
 .myimage1 {
@@ -52,9 +48,9 @@ nav {
   display: flex;
   flex-wrap: wrap;
   background-color: #e4d3ec;
-  border-radius: 1em;      
-  padding: 10px;           
-  margin: 10px;                 
+  border-radius: 1em;
+  padding: 10px;
+  margin: 10px;
 }
 
 .address,
@@ -66,7 +62,6 @@ nav {
 
 .contact-links {
   text-align: center;
-  flex-basis: 50%; 
 }
 
 .row2 {
@@ -84,14 +79,14 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #80808087; 
+  background-color: #80808087;
   padding: 20px;
   border-radius: 10px;
 }
 
-.skillstable {    
-  padding: 10px;           
-  margin: 10px; 
+.skillstable {
+  padding: 10px;
+  margin: 10px;
 }
 
 .skillstable table {
@@ -103,18 +98,10 @@ nav {
 }
 
 @media only screen and (max-width: 768px) {
-
-nav span {
-  display: none;
+  nav span {
+    display: none;
+  }
 }
-}
-
-nav a {
-  display:block;
-  width: 100%;
-  padding: 10px;
-}
-
 
 .skip-link {
   position: absolute;
@@ -129,4 +116,5 @@ nav a {
 .skip-link:focus {
   top: 0;
 }
+
   
