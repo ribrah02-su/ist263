@@ -18,6 +18,7 @@ p { font-size: 1em; }
   color: #2B0A0E; /* darker purple/brown for better contrast */
 }
 
+
 a {
   color: #2B0A0E; /* dark enough on pink background */
 }
@@ -95,6 +96,21 @@ nav a:hover {
 
 .skillsimage {
   text-align: center;
+}
+
+.skillstable caption {
+  color: #2B0A0E; /* dark text for good contrast */
+  background-color: #FFEDF7; /* light pink background */
+  padding: 8px 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.skillstable th,
+.skillstable td {
+  padding: 8px 12px;
+  color: #2B0A0E;
+  background-color: #FFEDF7;
 }
 
 @media only screen and (max-width: 768px) {
