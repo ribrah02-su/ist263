@@ -15,7 +15,7 @@ h2 { font-size: 2em; color: #3B1F0D }
 p { font-size: 1em; }
 
 .evenrow {
-  color: #381243;
+  color: black;;
 }
 
 a {
@@ -30,8 +30,7 @@ nav {
 
 nav a {
   color: #FFEDF7; 
-  display: block;
-  width: 100%;
+  display: inline-block;
   padding: 10px;
   text-decoration: none;
 }
@@ -98,6 +97,11 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  nav a{
+    display: block;
+    width: 100%;
+  }
+  
   nav span {
     display: none;
   }
