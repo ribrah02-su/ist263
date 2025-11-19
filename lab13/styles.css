@@ -15,7 +15,8 @@ h2 { font-size: 2em; color: #3B1F0D }
 p { font-size: 1em; }
 
 .evenrow {
-  color: black;;
+  color: #2B0A0E;            
+  background-color: #FFEDF7;
 }
 
 a {
@@ -121,4 +122,5 @@ nav a:hover {
   top: 0;
 }
 
+span {color: white;}
   
