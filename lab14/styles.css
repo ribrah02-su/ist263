@@ -1,0 +1,137 @@
+body {
+  background-color: #ffdef2;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000; 
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; 
+  font-style: normal;
+}
+
+
+h1 {
+  color: #3B1F0D;
+  background-color: #ffdef2;
+}
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 2em; color: #3B1F0D }
+
+p { font-size: 1em; }
+
+.evenrow {
+  color: #2B0A0E;            
+  background-color: #FFEDF7;
+}
+
+a {
+  color: #2B0A0E;
+}
+
+nav {
+  background-color: #2B0A0E; 
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #FFEDF7; 
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #3F1D12; 
+}
+
+.myimage1 {
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #e4d3ec;
+  border-radius: 1em;
+  padding: 10px;
+  margin: 10px;
+}
+
+.address,
+.contact-links,
+.contact-form,
+.map {
+  flex-basis: 50%;
+}
+
+.contact-links {
+  text-align: center;
+}
+
+.row2 {
+  background-color: #e4d3ec;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 8px;
+}
+
+.firstrow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.skillstable {
+  padding: 10px;
+  margin: 10px;
+}
+
+.skillstable table {
+  margin: 0 auto;
+}
+
+.skillsimage {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  nav a {
+    display: block;
+    width: 100%;
+  }
+  
+  nav span {
+    display: none;
+  }
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px 15px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+nav span {
+  color: white;
+}
+
+  
