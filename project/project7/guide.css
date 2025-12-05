@@ -14,14 +14,16 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    flex-wrap: wrap;
+    justify-content: center;   /* centers all links */
+    gap: 40px;                 /* even spacing between links */
+    padding: 15px 0;
 }
 
 nav a {
-    color: white;
+    color: #ffffff;            /* white text */
+    text-decoration: none;
     font-weight: bold;
+    font-size: 1.1rem;
 }
 
 nav a:hover {
