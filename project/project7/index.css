@@ -58,6 +58,24 @@ main img {
 }
 
 
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    nav a {
+        padding: 8px 0;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
 /* Skip link */
 .skip-link {
     position: absolute;
